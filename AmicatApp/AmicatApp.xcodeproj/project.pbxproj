@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43AC2E52661B6660090BE71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2E42661B6660090BE71 /* AppDelegate.swift */; };
+		B43AC2E72661B6660090BE71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2E62661B6660090BE71 /* SceneDelegate.swift */; };
+		B43AC2E92661B6660090BE71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2E82661B6660090BE71 /* ViewController.swift */; };
+		B43AC2EC2661B6660090BE71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43AC2EA2661B6660090BE71 /* Main.storyboard */; };
+		B43AC2EE2661B6670090BE71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43AC2ED2661B6670090BE71 /* Assets.xcassets */; };
+		B43AC2F12661B6670090BE71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43AC2EF2661B6670090BE71 /* LaunchScreen.storyboard */; };
+		B43AC2FC2661B6680090BE71 /* AmicatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2FB2661B6680090BE71 /* AmicatAppTests.swift */; };
+		B43AC3072661B6680090BE71 /* AmicatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC3062661B6680090BE71 /* AmicatAppUITests.swift */; };
+		B43AC3172661B81C0090BE71 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC3162661B81C0090BE71 /* LaunchScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43AC2F82661B6680090BE71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43AC2D92661B6660090BE71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43AC2E02661B6660090BE71;
+			remoteInfo = AmicatApp;
+		};
+		B43AC3032661B6680090BE71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43AC2D92661B6660090BE71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43AC2E02661B6660090BE71;
+			remoteInfo = AmicatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B43AC2E12661B6660090BE71 /* AmicatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmicatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43AC2E42661B6660090BE71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43AC2E62661B6660090BE71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B43AC2E82661B6660090BE71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B43AC2EB2661B6660090BE71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B43AC2ED2661B6670090BE71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B43AC2F02661B6670090BE71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B43AC2F22661B6670090BE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43AC2F72661B6680090BE71 /* AmicatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmicatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43AC2FB2661B6680090BE71 /* AmicatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmicatAppTests.swift; sourceTree = "<group>"; };
+		B43AC2FD2661B6680090BE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43AC3022661B6680090BE71 /* AmicatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmicatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43AC3062661B6680090BE71 /* AmicatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmicatAppUITests.swift; sourceTree = "<group>"; };
+		B43AC3082661B6680090BE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43AC3162661B81C0090BE71 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43AC2DE2661B6660090BE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AC2F42661B6680090BE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AC2FF2661B6680090BE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43AC2D82661B6660090BE71 = {
+			isa = PBXGroup;
+			children = (
+				B43AC2E32661B6660090BE71 /* AmicatApp */,
+				B43AC2FA2661B6680090BE71 /* AmicatAppTests */,
+				B43AC3052661B6680090BE71 /* AmicatAppUITests */,
+				B43AC2E22661B6660090BE71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B43AC2E22661B6660090BE71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43AC2E12661B6660090BE71 /* AmicatApp.app */,
+				B43AC2F72661B6680090BE71 /* AmicatAppTests.xctest */,
+				B43AC3022661B6680090BE71 /* AmicatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43AC2E32661B6660090BE71 /* AmicatApp */ = {
+			isa = PBXGroup;
+			children = (
+				B43AC3152661B6B00090BE71 /* View */,
+				B43AC3142661B6A70090BE71 /* Model */,
+				B43AC2E42661B6660090BE71 /* AppDelegate.swift */,
+				B43AC2E62661B6660090BE71 /* SceneDelegate.swift */,
+				B43AC2ED2661B6670090BE71 /* Assets.xcassets */,
+				B43AC2F22661B6670090BE71 /* Info.plist */,
+			);
+			path = AmicatApp;
+			sourceTree = "<group>";
+		};
+		B43AC2FA2661B6680090BE71 /* AmicatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B43AC2FB2661B6680090BE71 /* AmicatAppTests.swift */,
+				B43AC2FD2661B6680090BE71 /* Info.plist */,
+			);
+			path = AmicatAppTests;
+			sourceTree = "<group>";
+		};
+		B43AC3052661B6680090BE71 /* AmicatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B43AC3062661B6680090BE71 /* AmicatAppUITests.swift */,
+				B43AC3082661B6680090BE71 /* Info.plist */,
+			);
+			path = AmicatAppUITests;
+			sourceTree = "<group>";
+		};
+		B43AC3142661B6A70090BE71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B43AC3152661B6B00090BE71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B43AC2E82661B6660090BE71 /* ViewController.swift */,
+				B43AC2EF2661B6670090BE71 /* LaunchScreen.storyboard */,
+				B43AC3162661B81C0090BE71 /* LaunchScreenView.swift */,
+				B43AC2EA2661B6660090BE71 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B43AC2E02661B6660090BE71 /* AmicatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43AC30B2661B6680090BE71 /* Build configuration list for PBXNativeTarget "AmicatApp" */;
+			buildPhases = (
+				B43AC2DD2661B6660090BE71 /* Sources */,
+				B43AC2DE2661B6660090BE71 /* Frameworks */,
+				B43AC2DF2661B6660090BE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmicatApp;
+			productName = AmicatApp;
+			productReference = B43AC2E12661B6660090BE71 /* AmicatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43AC2F62661B6680090BE71 /* AmicatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43AC30E2661B6680090BE71 /* Build configuration list for PBXNativeTarget "AmicatAppTests" */;
+			buildPhases = (
+				B43AC2F32661B6680090BE71 /* Sources */,
+				B43AC2F42661B6680090BE71 /* Frameworks */,
+				B43AC2F52661B6680090BE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43AC2F92661B6680090BE71 /* PBXTargetDependency */,
+			);
+			name = AmicatAppTests;
+			productName = AmicatAppTests;
+			productReference = B43AC2F72661B6680090BE71 /* AmicatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B43AC3012661B6680090BE71 /* AmicatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43AC3112661B6680090BE71 /* Build configuration list for PBXNativeTarget "AmicatAppUITests" */;
+			buildPhases = (
+				B43AC2FE2661B6680090BE71 /* Sources */,
+				B43AC2FF2661B6680090BE71 /* Frameworks */,
+				B43AC3002661B6680090BE71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43AC3042661B6680090BE71 /* PBXTargetDependency */,
+			);
+			name = AmicatAppUITests;
+			productName = AmicatAppUITests;
+			productReference = B43AC3022661B6680090BE71 /* AmicatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43AC2D92661B6660090BE71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B43AC2E02661B6660090BE71 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B43AC2F62661B6680090BE71 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B43AC2E02661B6660090BE71;
+					};
+					B43AC3012661B6680090BE71 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B43AC2E02661B6660090BE71;
+					};
+				};
+			};
+			buildConfigurationList = B43AC2DC2661B6660090BE71 /* Build configuration list for PBXProject "AmicatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B43AC2D82661B6660090BE71;
+			productRefGroup = B43AC2E22661B6660090BE71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43AC2E02661B6660090BE71 /* AmicatApp */,
+				B43AC2F62661B6680090BE71 /* AmicatAppTests */,
+				B43AC3012661B6680090BE71 /* AmicatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43AC2DF2661B6660090BE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43AC2F12661B6670090BE71 /* LaunchScreen.storyboard in Resources */,
+				B43AC2EE2661B6670090BE71 /* Assets.xcassets in Resources */,
+				B43AC2EC2661B6660090BE71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AC2F52661B6680090BE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AC3002661B6680090BE71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43AC2DD2661B6660090BE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43AC2E92661B6660090BE71 /* ViewController.swift in Sources */,
+				B43AC2E52661B6660090BE71 /* AppDelegate.swift in Sources */,
+				B43AC2E72661B6660090BE71 /* SceneDelegate.swift in Sources */,
+				B43AC3172661B81C0090BE71 /* LaunchScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AC2F32661B6680090BE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43AC2FC2661B6680090BE71 /* AmicatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43AC2FE2661B6680090BE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43AC3072661B6680090BE71 /* AmicatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43AC2F92661B6680090BE71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43AC2E02661B6660090BE71 /* AmicatApp */;
+			targetProxy = B43AC2F82661B6680090BE71 /* PBXContainerItemProxy */;
+		};
+		B43AC3042661B6680090BE71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43AC2E02661B6660090BE71 /* AmicatApp */;
+			targetProxy = B43AC3032661B6680090BE71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B43AC2EA2661B6660090BE71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43AC2EB2661B6660090BE71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B43AC2EF2661B6670090BE71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43AC2F02661B6670090BE71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B43AC3092661B6680090BE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B43AC30A2661B6680090BE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B43AC30C2661B6680090BE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmicatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AmicatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B43AC30D2661B6680090BE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmicatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AmicatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B43AC30F2661B6680090BE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmicatAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AmicatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmicatApp.app/AmicatApp";
+			};
+			name = Debug;
+		};
+		B43AC3102661B6680090BE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmicatAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AmicatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmicatApp.app/AmicatApp";
+			};
+			name = Release;
+		};
+		B43AC3122661B6680090BE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmicatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AmicatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmicatApp;
+			};
+			name = Debug;
+		};
+		B43AC3132661B6680090BE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmicatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ElenaDiniz.AmicatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmicatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43AC2DC2661B6660090BE71 /* Build configuration list for PBXProject "AmicatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43AC3092661B6680090BE71 /* Debug */,
+				B43AC30A2661B6680090BE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43AC30B2661B6680090BE71 /* Build configuration list for PBXNativeTarget "AmicatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43AC30C2661B6680090BE71 /* Debug */,
+				B43AC30D2661B6680090BE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43AC30E2661B6680090BE71 /* Build configuration list for PBXNativeTarget "AmicatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43AC30F2661B6680090BE71 /* Debug */,
+				B43AC3102661B6680090BE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43AC3112661B6680090BE71 /* Build configuration list for PBXNativeTarget "AmicatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43AC3122661B6680090BE71 /* Debug */,
+				B43AC3132661B6680090BE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B43AC2D92661B6660090BE71 /* Project object */;
+}
