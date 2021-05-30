@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41F095226641B3F00CD399F /* adoptLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F095126641B3F00CD399F /* adoptLoginView.swift */; };
+		B41F09552664254200CD399F /* registerOngView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F09542664254200CD399F /* registerOngView.swift */; };
 		B43AC2E52661B6660090BE71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2E42661B6660090BE71 /* AppDelegate.swift */; };
 		B43AC2E72661B6660090BE71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2E62661B6660090BE71 /* SceneDelegate.swift */; };
 		B43AC2E92661B6660090BE71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2E82661B6660090BE71 /* ViewController.swift */; };
@@ -15,7 +17,7 @@
 		B43AC2F12661B6670090BE71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43AC2EF2661B6670090BE71 /* LaunchScreen.storyboard */; };
 		B43AC2FC2661B6680090BE71 /* AmicatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2FB2661B6680090BE71 /* AmicatAppTests.swift */; };
 		B43AC3072661B6680090BE71 /* AmicatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC3062661B6680090BE71 /* AmicatAppUITests.swift */; };
-		B43AC3172661B81C0090BE71 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC3162661B81C0090BE71 /* LaunchScreenView.swift */; };
+		B4B6A89826641640008A7321 /* ongLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B6A89726641640008A7321 /* ongLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B41F095126641B3F00CD399F /* adoptLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adoptLoginView.swift; sourceTree = "<group>"; };
+		B41F09542664254200CD399F /* registerOngView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerOngView.swift; sourceTree = "<group>"; };
 		B43AC2E12661B6660090BE71 /* AmicatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmicatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43AC2E42661B6660090BE71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B43AC2E62661B6660090BE71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +54,7 @@
 		B43AC3022661B6680090BE71 /* AmicatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmicatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43AC3062661B6680090BE71 /* AmicatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmicatAppUITests.swift; sourceTree = "<group>"; };
 		B43AC3082661B6680090BE71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B43AC3162661B81C0090BE71 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		B4B6A89726641640008A7321 /* ongLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ongLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B41F09532664246800CD399F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B43AC2D82661B6660090BE71 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +112,12 @@
 		B43AC2E32661B6660090BE71 /* AmicatApp */ = {
 			isa = PBXGroup;
 			children = (
-				B43AC3152661B6B00090BE71 /* View */,
 				B43AC3142661B6A70090BE71 /* Model */,
-				B43AC2E42661B6660090BE71 /* AppDelegate.swift */,
+				B43AC3152661B6B00090BE71 /* View */,
+				B41F09532664246800CD399F /* Controller */,
 				B43AC2E62661B6660090BE71 /* SceneDelegate.swift */,
+				B43AC2E42661B6660090BE71 /* AppDelegate.swift */,
+				B43AC2EF2661B6670090BE71 /* LaunchScreen.storyboard */,
 				B43AC2ED2661B6670090BE71 /* Assets.xcassets */,
 				B43AC2F22661B6670090BE71 /* Info.plist */,
 			);
@@ -140,9 +153,10 @@
 			isa = PBXGroup;
 			children = (
 				B43AC2E82661B6660090BE71 /* ViewController.swift */,
-				B43AC2EF2661B6670090BE71 /* LaunchScreen.storyboard */,
-				B43AC3162661B81C0090BE71 /* LaunchScreenView.swift */,
 				B43AC2EA2661B6660090BE71 /* Main.storyboard */,
+				B41F09542664254200CD399F /* registerOngView.swift */,
+				B41F095126641B3F00CD399F /* adoptLoginView.swift */,
+				B4B6A89726641640008A7321 /* ongLoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,9 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B43AC2E92661B6660090BE71 /* ViewController.swift in Sources */,
+				B41F095226641B3F00CD399F /* adoptLoginView.swift in Sources */,
+				B4B6A89826641640008A7321 /* ongLoginView.swift in Sources */,
 				B43AC2E52661B6660090BE71 /* AppDelegate.swift in Sources */,
+				B41F09552664254200CD399F /* registerOngView.swift in Sources */,
 				B43AC2E72661B6660090BE71 /* SceneDelegate.swift in Sources */,
-				B43AC3172661B81C0090BE71 /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
