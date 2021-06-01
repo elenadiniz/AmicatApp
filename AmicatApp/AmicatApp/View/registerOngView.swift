@@ -13,7 +13,7 @@
 
 import UIKit
 
-class registerOngView: UIViewController {
+class registerOngView: UIViewController, UITextFieldDelegate {
     
     var titleField = "Prencha os dados abaixo para cadastrar-se!"
     var weekendTime = "Aberto aos finais de semana?"
@@ -24,9 +24,10 @@ class registerOngView: UIViewController {
     @IBOutlet weak var instructionTextField: UITextField!
     @IBOutlet weak var timeTextField: UITextField!
     @IBOutlet weak var weekendTextField: UILabel!
+    @IBOutlet weak var descriptionTextField: UITextField!
     @IBOutlet weak var weekendSwitchButton: UISwitch!
-    @IBOutlet weak var descriptionBoxTextField: UITextView!
     @IBOutlet weak var registrerOngButton: UIButton!
+    @IBOutlet weak var descriptionBoxTextField: UITextView!
     
     
     override func viewDidLoad() {
@@ -34,7 +35,8 @@ class registerOngView: UIViewController {
         
         self.titleLabel.text = self.titleField
         self.weekendTextField.text = self.weekendTime
-
+        self.descriptionTextField.borderStyle = .roundedRect
+        
         
 
         // Do any additional setup after loading the view.
@@ -58,8 +60,8 @@ class registerOngView: UIViewController {
         if textField == self.nameTextField {
             self.adressTextField.becomeFirstResponder()
         }else if textField == self.adressTextField {
-            self.descriptionBoxTextField.becomeFirstResponder()
-        }else if textField == self.descriptionBoxTextField {
+            self.descriptionTextField.becomeFirstResponder()
+        }else if textField == self.descriptionTextField {
         self.instructionTextField.becomeFirstResponder()
     }else if textField == self.instructionTextField {
             self.timeTextField.becomeFirstResponder()

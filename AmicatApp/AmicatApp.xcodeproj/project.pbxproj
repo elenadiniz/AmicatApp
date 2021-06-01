@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B41F095226641B3F00CD399F /* adoptLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F095126641B3F00CD399F /* adoptLoginView.swift */; };
 		B41F09552664254200CD399F /* registerOngView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F09542664254200CD399F /* registerOngView.swift */; };
+		B429185A26668E8D00BFA691 /* registerAdoptantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429185926668E8D00BFA691 /* registerAdoptantView.swift */; };
 		B43AC2E52661B6660090BE71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2E42661B6660090BE71 /* AppDelegate.swift */; };
 		B43AC2E72661B6660090BE71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2E62661B6660090BE71 /* SceneDelegate.swift */; };
 		B43AC2E92661B6660090BE71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AC2E82661B6660090BE71 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		B41F095126641B3F00CD399F /* adoptLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adoptLoginView.swift; sourceTree = "<group>"; };
 		B41F09542664254200CD399F /* registerOngView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerOngView.swift; sourceTree = "<group>"; };
+		B429185926668E8D00BFA691 /* registerAdoptantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerAdoptantView.swift; sourceTree = "<group>"; };
 		B43AC2E12661B6660090BE71 /* AmicatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmicatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43AC2E42661B6660090BE71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B43AC2E62661B6660090BE71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			children = (
 				B43AC2E82661B6660090BE71 /* ViewController.swift */,
 				B43AC2EA2661B6660090BE71 /* Main.storyboard */,
+				B429185926668E8D00BFA691 /* registerAdoptantView.swift */,
 				B41F09542664254200CD399F /* registerOngView.swift */,
 				B41F095126641B3F00CD399F /* adoptLoginView.swift */,
 				B4B6A89726641640008A7321 /* ongLoginView.swift */,
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B429185A26668E8D00BFA691 /* registerAdoptantView.swift in Sources */,
 				B43AC2E92661B6660090BE71 /* ViewController.swift in Sources */,
 				B41F095226641B3F00CD399F /* adoptLoginView.swift in Sources */,
 				B4B6A89826641640008A7321 /* ongLoginView.swift in Sources */,
