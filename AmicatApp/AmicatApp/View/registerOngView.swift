@@ -33,6 +33,11 @@ class registerOngView: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.nameTextField.delegate = self
+        self.adressTextField.delegate = self
+        self.instructionTextField.delegate = self
+        self.timeTextField.delegate = self
+        self.descriptionTextField.delegate = self
         self.titleLabel.text = self.titleField
         self.weekendTextField.text = self.weekendTime
         self.descriptionTextField.borderStyle = .roundedRect
@@ -57,17 +62,16 @@ class registerOngView: UIViewController, UITextFieldDelegate {
     
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        if textField == self.nameTextField {
+        if textField.isEqual(nameTextField) {
             self.adressTextField.becomeFirstResponder()
-        }else if textField == self.adressTextField {
+        }else if textField.isEqual(adressTextField) {
             self.descriptionTextField.becomeFirstResponder()
-        }else if textField == self.descriptionTextField {
+        }else if textField.isEqual(descriptionTextField) {
         self.instructionTextField.becomeFirstResponder()
-    }else if textField == self.instructionTextField {
+        }else if textField.isEqual(instructionTextField) {
             self.timeTextField.becomeFirstResponder()
     }else{
             self.timeTextField.resignFirstResponder()
-        
         }
         return true
     }
