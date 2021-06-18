@@ -84,11 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B41F09532664246800CD399F /* Controller */ = {
+		B41F09532664246800CD399F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B43AC2EA2661B6660090BE71 /* Main.storyboard */,
+				B43AC2E82661B6660090BE71 /* ViewController.swift */,
 			);
-			path = Controller;
+			path = View;
 			sourceTree = "<group>";
 		};
 		B43AC2D82661B6660090BE71 = {
@@ -115,8 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				B43AC3142661B6A70090BE71 /* Model */,
-				B43AC3152661B6B00090BE71 /* View */,
-				B41F09532664246800CD399F /* Controller */,
+				B43AC3152661B6B00090BE71 /* ViewModel */,
+				B41F09532664246800CD399F /* View */,
 				B43AC2E62661B6660090BE71 /* SceneDelegate.swift */,
 				B43AC2E42661B6660090BE71 /* AppDelegate.swift */,
 				B43AC2EF2661B6670090BE71 /* LaunchScreen.storyboard */,
@@ -151,17 +153,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B43AC3152661B6B00090BE71 /* View */ = {
+		B43AC3152661B6B00090BE71 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				B43AC2E82661B6660090BE71 /* ViewController.swift */,
-				B43AC2EA2661B6660090BE71 /* Main.storyboard */,
 				B429185926668E8D00BFA691 /* registerAdoptantView.swift */,
 				B41F09542664254200CD399F /* registerOngView.swift */,
 				B41F095126641B3F00CD399F /* adoptLoginView.swift */,
 				B4B6A89726641640008A7321 /* ongLoginView.swift */,
 			);
-			path = View;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
